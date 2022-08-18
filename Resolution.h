@@ -1,4 +1,4 @@
 #pragma once
 
-constexpr int WIDTH = 1920;
-constexpr int HEIGHT = 1080;
+constexpr int WIN_WIDTH = 1920;
+constexpr int WIN_HEIGHT = 1080;

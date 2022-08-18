@@ -6,6 +6,6 @@
 struct Light
 {
 	Vector4D Origin;
-	float	Bright;
 	Color Color;
+	float	Bright;
 };

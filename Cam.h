@@ -5,9 +5,11 @@ struct Cam
 {
 	Vector4D Origin;
 	Vector4D Direction;
-	float	HFOV;
-	Cam(): HFOV(0)
-	{
+	float	HfovRadian;
+	double	Proportion;
 
-	}
+	Cam(): HfovRadian(0), Proportion(0)
+	{}
+	Cam(Vector4D origin, Vector4D direction, float hfov, double proportion): Origin(origin), Direction(direction), HfovRadian(hfov), Proportion(proportion)
+	{}
 };
